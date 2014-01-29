@@ -41,4 +41,8 @@ public class Student extends Person{
     public String getStudentInfo(){
         return this.idNumber+ " " + this.course;
     }
+
+    public String toString(String i){
+        return this.idNumber+i;
+    }
 }
